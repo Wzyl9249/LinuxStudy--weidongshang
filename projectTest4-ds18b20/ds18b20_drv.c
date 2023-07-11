@@ -89,6 +89,7 @@ int ds18b20_wait_for_ack(void)
 }
 
 static int ds18b20_reset(void){
+	//int ret;
 	gpiod_direction_output(ds18b20_data_pin,0);
 	ds18b20_delay_us(480);
 
