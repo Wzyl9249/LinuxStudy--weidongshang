@@ -1,0 +1,13 @@
+[
+    {
+        "arguments": [
+            "m-buildroot-linux-gnueabihf-gcc",
+            "-c",
+            "-o",
+            "button_test",
+            "button_test.c"
+        ],
+        "directory": "/home/book/nfs_rootfs/driver_projects/projectTest10-dac",
+        "file": "button_test.c"
+    }
+]
